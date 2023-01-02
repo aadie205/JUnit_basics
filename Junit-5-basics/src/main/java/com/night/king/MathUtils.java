@@ -16,6 +16,7 @@ public class MathUtils {
 	
 	public static void main(String[] args) {
 		System.out.println("This is the source class");
+		System.out.println("This is for testing");
 
 	}
 	
