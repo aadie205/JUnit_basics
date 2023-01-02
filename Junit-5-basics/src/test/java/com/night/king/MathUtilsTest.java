@@ -1,6 +1,4 @@
-/**
- * 
- */
+
 package com.night.king;
 
 import static org.junit.jupiter.api.Assertions.*;
