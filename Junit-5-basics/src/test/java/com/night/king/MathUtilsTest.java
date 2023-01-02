@@ -36,10 +36,9 @@ class MathUtilsTest {
 	@Test
 	void testDivide() {
 		MathUtils mathUtils=new MathUtils();
-		
+		System.out.println("testing divide method");
 //		assertThrows(NullPointerException.class, () -> mathUtils.divide(1,0), "divide by zero should throw");
-
-		assertThrows(ArithmeticException.class, () -> mathUtils.divide(1,0), "divide by zero should throw");
+		assertThrows(ArithmeticException.class, () -> mathUtils.divide(1,0), "Divide by zero should throw");
 	}
 }
  
