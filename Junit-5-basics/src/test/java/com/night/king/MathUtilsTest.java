@@ -8,14 +8,14 @@ import org.junit.jupiter.api.Test;
 
 /**
  * @author Night King
- *
+ * 
  */
 class MathUtilsTest {
 
 	@Test
 	void testAdd() {
 //		fail("Not yet implemented");
-//		System.out.println("This is test run");
+		
 		MathUtils mathUtils=new MathUtils();
 		
 		int expected =2;
